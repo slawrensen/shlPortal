@@ -94,11 +94,27 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\shl.css" />
     <Content Include="index.html" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="page2.html" />
+    <Content Include="parts\404.html" />
+    <Content Include="parts\about.html" />
+    <Content Include="parts\blog.html" />
+    <Content Include="parts\blog_item.html" />
+    <Content Include="parts\contact.html" />
+    <Content Include="parts\faq.html" />
+    <Content Include="parts\home.html" />
+    <Content Include="parts\pricing.html" />
+    <Content Include="parts\services.html" />
+    <Content Include="scripts\angular-mocks.js" />
+    <Content Include="scripts\angular-route.min.js" />
+    <Content Include="scripts\angular.js" />
+    <Content Include="scripts\angular.min.js" />
+    <Content Include="scripts\angular.min.js.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -114,6 +130,13 @@
     <Content Include="scripts\angular-ui\ui-bootstrap-tpls.min.js" />
     <Content Include="scripts\angular-ui\ui-bootstrap.js" />
     <Content Include="scripts\angular-ui\ui-bootstrap.min.js" />
+    <Content Include="scripts\app.js" />
+    <None Include="scripts\_references.js" />
+    <Content Include="scripts\app2.js" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="scripts\bootstrap.js" />
+    <Content Include="templates\footer.html" />
+    <Content Include="templates\header.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
