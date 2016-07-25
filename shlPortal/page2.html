@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html ng-app="SharedHomeLab" lang="en">
+<head>
+    <titleSharedHomeLab Portal></titleSharedHomeLab>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="SharedHomeLab">
+    <!-- AngularUI Styles -->
+    <link rel="stylesheet" href="Content/ui-bootstrap-csp.css" />
+    <link rel="stylesheet" href="scripts/bootstrap.css"/>
+
+</head>
+
+
+<p>Total number of phones: {{phones.length}}</p>
+
+    <body ng-controller="PhoneListController">
+
+        <ul>
+            <li ng-repeat="phone in phones">
+                <span>{{phone.name}}</span>
+                <p>{{phone.snippet}}</p>
+            </li>
+        </ul>
+
+    </body>
+
+<script src="scripts/angular.js"></script>
+<script src="scripts/angular-ui/ui-bootstrap-tpls.min.js"></script>
+<script src="scripts/app2.js"></script>
+</html>
